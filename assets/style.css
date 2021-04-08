@@ -1,0 +1,223 @@
+body {
+    color:black;
+    background-color:rgb(214, 208, 208);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-item {
+    color: seagreen;
+    font-weight: bolder;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("./Office-Desk.jpg");
+    background-size: 100% 100%;
+    box-shadow: 3px 3px 3px gray;
+    padding-bottom: 100px;
+    font-size: 30px;
+    opacity: 0.75;
+    font-weight: bolder;
+    
+}
+
+#navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 20px;
+} 
+
+
+img {
+    /* float: right; */
+    margin-left: 30px;
+    width:200px;
+    height:200px;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 200px;
+}
+
+ul li {
+    list-style-type:none;
+}
+
+/* section p{
+display: flex;
+flex-wrap: wrap;
+padding-left: 280px;
+font-size: 18px;
+
+} */
+
+
+.container1{
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+ 
+}
+.container1 p{
+align-content: left;
+padding-top: 20px;
+padding-left: 20px;
+
+}
+.aboutme{
+    border-color: seagreen;
+    color: seagreen;
+}
+
+.container { 
+    display:flex;
+    justify-content:center; 
+    flex-direction: row;
+    width: 100%;
+    margin-left:85px;
+    flex-direction:unset; 
+    flex-wrap: wrap; 
+    color:black;
+    font-weight: bolder;
+}
+#container{
+    text-align: center;
+    padding-left: 100px;
+    padding-top:100px;
+    color:rgb(0, 0, 0);
+    opacity: 5;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+    line-height: 1.25;
+
+    font-size: 30px;
+}
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* /* color: rgb(131, 192, 211); */
+    /* border:rgb(1, 1, 77);
+    background-color:rgb(1, 1, 77); */ 
+    
+
+}
+
+
+
+#flexbox-3 {
+    display:flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 8%;
+    padding: 50px;
+    line-height: 1.25;
+    border:3px solid seagreen;
+    border-radius: 200px;
+}
+
+
+.footer {
+    align-content: center;
+    text-decoration: underline;
+    display:flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: space-between;
+    padding-right:20px;
+    height:60px;  
+    width:80%;
+}
+
+#line1 {
+    height:190px;
+    border-right: 3px solid rgb(2, 2, 70);
+    position:absolute;
+    right: 85%;
+}
+
+#line2 {
+    height:525px;
+    border-right: 3px solid rgb(2, 2, 70);
+    position:absolute;
+    right: 85%;
+    
+}
+
+#line3 {
+    height: 65px;
+    border-right: 3px solid rgb(2, 2, 70);
+    position:absolute;
+    right: 85%;
+}
+
+.side {
+    padding-right: 10px;
+    font-size: 30px;
+    color:rgb(1, 1, 77);
+    font-weight: bolder;
+}
+.side:hover {
+    color: purple;
+    font-size: 31px;
+}
+
+nav a:hover{
+    cursor: pointer;
+    font-size: 25px;
+    color:seagreen
+}
+.aboutme :hover{
+    cursor: pointer;
+    color: rebeccapurple;
+}
+
+#flex:hover{
+    font-size: 48;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+@media (min-width:768px) {
+.container.inner-header .flexbox .footer {
+        flex-direction: column;
+    }
+
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
