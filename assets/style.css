@@ -140,14 +140,16 @@ a:link {
   }
 
 @media (min-width:768px) {
-.container.header .flexbox-3 {
+.container .header .flexbox-3 {
+    width: 50%;
     }
+}
     @media screen and (max-width: 992px) {
         .container1 {
           width: 50%;
         }
       }
-}
+
 @media screen and (max-width: 600px) {
     .flex .aboutme {
       width: 100%;
