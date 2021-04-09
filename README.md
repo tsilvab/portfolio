@@ -1,3 +1,5 @@
+![Screenshot (5)](https://user-images.githubusercontent.com/78382681/114126414-61ff4d00-98c6-11eb-9283-f7328871e761.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/78382681/114126420-6592d400-98c6-11eb-8eb9-d8598fd16117.png)
 ### portfolio
 This is my updated portfolio
 The navbar in the header navigates to sections of the page. It also changes in color when it's clicked on.
