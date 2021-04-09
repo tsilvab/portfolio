@@ -2,7 +2,7 @@ body {
     color:black;
     background-color:rgb(214, 208, 208);
     font-family: 'Imprima', sans-serif;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .header{
@@ -12,10 +12,10 @@ body {
     width: 100%;
     height: 100%;
     background-image: url("./Office-Desk.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     box-shadow: 3px 3px 3px gray;
     padding-bottom: 100px;
-    font-size: 38px;
+    font-size: 36px;
     opacity: 0.75;
     font-weight: bolder;
     
@@ -28,7 +28,7 @@ body {
     width: 100%;
     height: 100%;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 20px;
 } 
 
 img {
@@ -51,14 +51,12 @@ ul li {
     padding-right: 50px;
     margin-left: 50px;
     margin-right: 100px;
-    font-size: 28px;
  
 }
 .container1 p{
 align-content: left;
 padding-top: 20px;
 padding-left: 20px;
-
 
 }
 .side{
@@ -82,8 +80,7 @@ padding-left: 20px;
     padding-left: 100px;
     padding-top:100px;
     color:rgb(0, 0, 0);
-    
-    
+    opacity: 5;
  }
 
 #flex {
@@ -94,16 +91,14 @@ padding-left: 20px;
     line-height: 1.25;
     background-image: url("./panel.jpg");
     border:3px solid seagreen;
-    border-radius: 250px;
-
+    border-radius: 150px;
 }
 
 
 
 #flexbox-3 {
     display:flex;
-    justify-content:space-evenly;
-    margin-left: 50px;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
      width: 100%;
@@ -111,7 +106,8 @@ padding-left: 20px;
 }
 
 #flexbox-3 p{
-margin-right: 150px; 
+margin-left: 150px;
+margin-right: 150px;
 width: 50%;
 }
 
@@ -120,9 +116,14 @@ width: 50%;
     border-right: 3px solid seagreen;
    
 }
+#line2 {
+    height:190px;
+    border-right: 3px solid seagreen;
+   
+}
 
-
-  nav a:hover{
+  
+nav a:hover{
     cursor: pointer;
     font-size: 25px;
     color:seagreen
@@ -142,31 +143,27 @@ a:link {
     color: seagreen;
     background-color: transparent;
     text-decoration: none;
-    
   }
   footer:hover p a{
       color: seagreen;
   }
 
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  @media (min-width:768px) {
-    .container .header .flexbox-3 {
-        width: 50%;
-        }
+@media (min-width:768px) {
+.container .header .flexbox-3 {
+    width: 50%;
     }
-        @media screen and (max-width: 992px) {
-            .container1 {
-              width: 50%;
-            }
-          }
-    
-    @media screen and (max-width: 600px) {
-        .flex .side {
-          width: 100%;
+}
+    @media screen and (max-width: 992px) {
+        .container1 {
+          width: 50%;
         }
       }
-    
+
+@media screen and (max-width: 600px) {
+    .flex .aboutme {
+      width: 100%;
+    }
+  }
   @media (min-width: 40em) {
     /* Bump up size of carousel content */
     .carousel-caption p {
@@ -174,13 +171,8 @@ a:link {
       font-size: 1.25rem;
       line-height: 1.4;
     }
-    .container1 p {
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
-    }
-   
-    .header {
+  
+    .featurette-heading {
       font-size: 50px;
     }
   }
